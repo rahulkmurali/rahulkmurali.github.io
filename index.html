@@ -1,17 +1,208 @@
-<!DOCTYPE doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-            <meta content="width=device-width, initial-scale=1" name="viewport">
-                <title>
-                    Title
-                </title>
-            </meta>
-        </meta>
-    </head>
-    <body>
-        <h5>
-            Hello!!!
-        </h5>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richard Sanchez - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            background-color: #092c4c;
+            color: white;
+            padding: 20px;
+            flex: 1;
+        }
+
+        .sidebar img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h3 {
+            margin-top: 30px;
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+        }
+
+        .sidebar p,
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            display: block;
+        }
+
+        .main {
+            flex: 2;
+            padding: 30px;
+        }
+
+        .main h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .main h1 span {
+            color: #0b5c8c;
+        }
+
+        .main h2 {
+            font-size: 16px;
+            color: gray;
+            font-weight: normal;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h3 {
+            border-bottom: 2px solid #0b5c8c;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .job {
+            margin-top: 15px;
+        }
+
+        .job h4 {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+
+        .job p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar,
+            .main {
+                flex: unset;
+                width: 100%;
+            }
+
+            .sidebar img {
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="https://via.placeholder.com/120" alt="Richard Sanchez" />
+            <h3>Contact</h3>
+            <p>📞 +123-456-7890</p>
+            <p>✉️ hello@reallygreatsite.com</p>
+            <p>📍 123 Anywhere St., Any City</p>
+            <p>🌐 www.reallygreatsite.com</p>
+
+            <h3>Education</h3>
+            <p><strong>2029 - 2030</strong><br />WARDIERE UNIVERSITY<br />Master of Business Management</p>
+            <p><strong>2025 - 2029</strong><br />WARDIERE UNIVERSITY<br />Bachelor of Business<br />GPA: 3.8 / 4.0</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Project Management</li>
+                <li>Public Relations</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Leadership</li>
+                <li>Effective Communication</li>
+                <li>Critical Thinking</li>
+            </ul>
+
+            <h3>Languages</h3>
+            <ul>
+                <li>English (Fluent)</li>
+                <li>French (Fluent)</li>
+                <li>German (Basics)</li>
+                <li>Spanish (Intermediate)</li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1><strong>RICHARD</strong> <span>SANCHEZ</span></h1>
+            <h2>MARKETING MANAGER</h2>
+
+            <div class="section">
+                <h3>Profile</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+            </div>
+
+            <div class="section">
+                <h3>Work Experience</h3>
+
+                <div class="job">
+                    <h4>Borcelle Studio — 2030 - Present</h4>
+                    <p>Marketing Manager & Specialist</p>
+                    <ul>
+                        <li>Develop and execute comprehensive marketing strategies.</li>
+                        <li>Lead, mentor, and manage a high-performing team.</li>
+                        <li>Monitor brand consistency across materials.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Fauget Studio — 2025 - 2029</h4>
+                    <p>Marketing Manager & Specialist</p>
+                    <ul>
+                        <li>Create and manage the marketing budget.</li>
+                        <li>Oversee market research and competitor strategies.</li>
+                        <li>Monitor brand consistency across materials.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Studio Shodwe — 2024 - 2025</h4>
+                    <p>Marketing Manager & Specialist</p>
+                    <ul>
+                        <li>Develop and maintain partner relationships.</li>
+                        <li>Monitor brand consistency across materials.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Reference</h3>
+                <p><strong>Estelle Darcy</strong><br />Wardiere Inc. / CTO<br />📞 123-456-7890<br />✉️
+                    hello@reallygreatsite.com</p>
+                <p><strong>Harper Richard</strong><br />Wardiere Inc. / CEO<br />📞 123-456-7890<br />✉️
+                    hello@reallygreatsite.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
