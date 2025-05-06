@@ -2,207 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Richard Sanchez - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f4f4;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: row;
-            max-width: 1000px;
-            margin: 20px auto;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .sidebar {
-            background-color: #092c4c;
-            color: white;
-            padding: 20px;
-            flex: 1;
-        }
-
-        .sidebar img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-
-        .sidebar h3 {
-            margin-top: 30px;
-            border-bottom: 1px solid white;
-            padding-bottom: 5px;
-        }
-
-        .sidebar p,
-        .sidebar a {
-            color: white;
-            text-decoration: none;
-            margin: 10px 0;
-            display: block;
-        }
-
-        .main {
-            flex: 2;
-            padding: 30px;
-        }
-
-        .main h1 {
-            font-size: 28px;
-            margin: 0;
-        }
-
-        .main h1 span {
-            color: #0b5c8c;
-        }
-
-        .main h2 {
-            font-size: 16px;
-            color: gray;
-            font-weight: normal;
-        }
-
-        .section {
-            margin-top: 30px;
-        }
-
-        .section h3 {
-            border-bottom: 2px solid #0b5c8c;
-            padding-bottom: 5px;
-            text-transform: uppercase;
-        }
-
-        .job {
-            margin-top: 15px;
-        }
-
-        .job h4 {
-            margin: 5px 0;
-            font-weight: bold;
-        }
-
-        .job p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-
-            .sidebar,
-            .main {
-                flex: unset;
-                width: 100%;
-            }
-
-            .sidebar img {
-                margin: 0 auto;
-                display: block;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Murali, Front-end Developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <img src="https://via.placeholder.com/120" alt="Richard Sanchez" />
-            <h3>Contact</h3>
-            <p>📞 +123-456-7890</p>
-            <p>✉️ hello@reallygreatsite.com</p>
-            <p>📍 123 Anywhere St., Any City</p>
-            <p>🌐 www.reallygreatsite.com</p>
+  <main>
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <header>
+      <div class="content-wrap">
+        <h1>Rahul Murali</h1>
+        <h2>Front-end Developer</h2>
 
-            <h3>Education</h3>
-            <p><strong>2029 - 2030</strong><br />WARDIERE UNIVERSITY<br />Master of Business Management</p>
-            <p><strong>2025 - 2029</strong><br />WARDIERE UNIVERSITY<br />Bachelor of Business<br />GPA: 3.8 / 4.0</p>
+        <p>As a developer, I specialize in creating modular and scalable front-end architectures</p>
+      </div>
+    </header>
 
-            <h3>Skills</h3>
+    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <section class="projects">
+      <div class="content-wrap divider">
+        <h2>Featured Projects</h2>
+
+        <!-- Project 1 -->
+        <section class="project-item">
+          <h3>Line Rejection Dashboard</h3>
+          <p>Line Rejection Dashboard is a responsive web application developing in ReactJS. The
+            purpose of the web application is to monitor and estimate the waste from each lines in a
+            factory.</p>
+          <p>Technologies used: <b>ReactJS</b></p>
+          <p>Duration: Current project</p>
+          <p>Role: Technical Lead</p>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project-item">
+          <h3>Digital Factory Operation System</h3>
+          <p>Digital factory operation system is an adaptive and responsive web application developed in
+            Angular framework. The purpose of the web application is to monitor the efficiency,
+            speed and performance of the lines.</p>
+          <p>Technologies used: <b>Angular, MSAL 2.0, Docker, PowerBI Integration</b></p>
+          <p>Duration: 4 Years</p>
+          <p>Role: Technical Lead</p>
+        </section>
+
+        <!-- Project 3 -->
+        <section class="project-item">
+          <h3>Utilities Management App</h3>
+          <p>Utilities Management app is a mobile app developed in Ionic framework. The purpose of the
+            app is to provide services like bill payments of gas and electricity and meter reading.</p>
+          <p>Technologies used: <b>Ionic Angular</b></p>
+          <p>Duration: 12 Months</p>
+          <p>Role: Technical Lead</p>
+        </section>
+
+        <!-- Project 4 -->
+        <section class="project-item">
+          <h3>Active Inspiration (Bounts)</h3>
+          <p>Active Inspiration fitness application helps to track all sorts of outdoor activities. Users can
+            earn points by doing activities and can buy products from the online shop.</p>
+          <p>Technologies used: <b>Angular, Elgg, WordPress, NodeJS, Laravel, PHP, Yii, MySQL, MongoDB, Redis</b></p>
+          <p>Duration: 4 Years</p>
+          <p>Role: Technical Lead</p>
+        </section>
+      </div>
+    </section>
+
+    <!-- ***********************  WORK EXPERIENCE  *********************** -->
+    <section class="work-experience item-details">
+      <div class="content-wrap divider">
+        <h2>Work Experience</h2>
+
+        <!-- Job 1 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Technical Lead & Front-end Developer</h3>
+            <p>Tata Consultancy Services, Infopark, Kochi</p>
+            <p>January 2019-Present</p>
+          </div>
+          <div class="job-summary">
+            <p>Develop projects and also lead the team of developers. <br />Worked mainly on frontend technologies like
+              Angular and Ionic frameworks. <br />Interaction with the client to know the requirement.</p>
+          </div>
+        </section>
+
+        <!-- Job 2 -->
+        <section class="job-item">
+          <div class="job-details">
+            <h3>Senior Software Engineer</h3>
+            <p>Cubet Technolabs Pvt Ltd, Carnival Infopark, Kochi</p>
+            <p>January 2012 - January 2019</p>
+          </div>
+          <div class="job-summary">
+            <p>Worked on many individual projects and also lead the team of developers</p>
+            <p>Key contributions:</p>
             <ul>
-                <li>Project Management</li>
-                <li>Public Relations</li>
-                <li>Teamwork</li>
-                <li>Time Management</li>
-                <li>Leadership</li>
-                <li>Effective Communication</li>
-                <li>Critical Thinking</li>
+              <li>Handle individual projects and lead the team of developers.</li>
+              <li>Worked on frontend technologies like Angular and ReactJS and one mobile app project in React
+                Native</li>
+              <li>Provided training for new trainees focusing on creating an inclusive and engaging learning
+                environment.</li>
+              <li>Interaction with the client to know the requirement.</li>
+              <li>Developing backend system to manage the API requests.</li>
             </ul>
+          </div>
+        </section>
 
-            <h3>Languages</h3>
-            <ul>
-                <li>English (Fluent)</li>
-                <li>French (Fluent)</li>
-                <li>German (Basics)</li>
-                <li>Spanish (Intermediate)</li>
-            </ul>
-        </div>
+      </div>
+    </section>
 
-        <div class="main">
-            <h1><strong>RICHARD</strong> <span>SANCHEZ</span></h1>
-            <h2>MARKETING MANAGER</h2>
+    <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+    <section class="education item-details">
+      <div class="content-wrap">
+        <h2>Education</h2>
 
-            <div class="section">
-                <h3>Profile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
-            </div>
+        <section>
+          <h3>Matha College of Technology, North Paravur, Kerala</h3>
+          <p>Bachelor of Technology Degree (IT), 2011</p>
+        </section>
 
-            <div class="section">
-                <h3>Work Experience</h3>
+        <section>
+          <h3>Govt.B.H.S.S Perumbavoor, Kerala</h3>
+          <p>Higher Secondary Education, 2007</p>
+        </section>
 
-                <div class="job">
-                    <h4>Borcelle Studio — 2030 - Present</h4>
-                    <p>Marketing Manager & Specialist</p>
-                    <ul>
-                        <li>Develop and execute comprehensive marketing strategies.</li>
-                        <li>Lead, mentor, and manage a high-performing team.</li>
-                        <li>Monitor brand consistency across materials.</li>
-                    </ul>
-                </div>
+        <section>
+          <h3>Mar Augen High School, Kodanad, Kerala</h3>
+          <p>Secondary Education, 2005</p>
+        </section>
+      </div>
+    </section>
 
-                <div class="job">
-                    <h4>Fauget Studio — 2025 - 2029</h4>
-                    <p>Marketing Manager & Specialist</p>
-                    <ul>
-                        <li>Create and manage the marketing budget.</li>
-                        <li>Oversee market research and competitor strategies.</li>
-                        <li>Monitor brand consistency across materials.</li>
-                    </ul>
-                </div>
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+    <footer>
+      <div class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
 
-                <div class="job">
-                    <h4>Studio Shodwe — 2024 - 2025</h4>
-                    <p>Marketing Manager & Specialist</p>
-                    <ul>
-                        <li>Develop and maintain partner relationships.</li>
-                        <li>Monitor brand consistency across materials.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="section">
-                <h3>Reference</h3>
-                <p><strong>Estelle Darcy</strong><br />Wardiere Inc. / CTO<br />📞 123-456-7890<br />✉️
-                    hello@reallygreatsite.com</p>
-                <p><strong>Harper Richard</strong><br />Wardiere Inc. / CEO<br />📞 123-456-7890<br />✉️
-                    hello@reallygreatsite.com</p>
-            </div>
-        </div>
-    </div>
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <ul class="contact-list">
+          <li><a href="mailto:rahulkmurali@gmail.com">✉️ rahulkmurali@gmail.com</a></li>
+          <li><a href="tel:+91 9447720605" target="_blank">📞 +91 9447720605</a></li>
+          <li><a href="https://www.linkedin.com/in/rahul-k-murali-2a38173b/" target="_blank">Linked In</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
 </body>
 
 </html>
